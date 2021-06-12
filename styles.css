@@ -1,0 +1,130 @@
+:root {
+  --bright_orange: hsl(31, 77%, 52%);
+  --dark_cyan: hsl(184, 100%, 22%);
+  --very_dark_cyan: hsl(179, 100%, 13%);
+  --transparent_white: hsla(0, 0%, 100%, 0.75);
+  --very_light_gray: hsl(0, 0%, 95%);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: var(--very_light_gray);
+}
+
+@media all and (max-width: 1440px) {
+  .card {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    float: left;
+    width: 200px;
+    height: 345px;
+    padding: 50px;
+  }
+
+  #sedans {
+    margin-left: 220px;
+    background-color: var(--bright_orange);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+  }
+
+  #suvs {
+    background-color: var(--dark_cyan);
+  }
+  #luxury {
+    margin-right: 220px;
+    background-color: var(--very_dark_cyan);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+
+  h1 {
+    font-family: "Big Shoulders Display", cursive;
+    text-transform: uppercase;
+    color: var(--very_light_gray);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    line-height: 150%;
+    color: var(--transparent_white);
+  }
+
+  .learnmore {
+    margin-top: 85px;
+    font-family: "Lexend Deca", sans-serif;
+    background-color: var(--very_light_gray);
+    width: 120px;
+    height: 38px;
+    border-radius: 30px;
+  }
+
+  #sedanslearnmore {
+    color: var(--bright_orange);
+  }
+
+  #suvslearnmore {
+    color: var(--dark_cyan);
+  }
+
+  #luxurylearnmore {
+    color: var(--very_dark_cyan);
+  }
+
+  .buttontext {
+    color: rgba(255, 255, 255, 0);
+    text-align: center;
+    padding-top: 8px;
+  }
+
+  .clear {
+    clear: both;
+  }
+}
+
+@media all and (max-width: 375px) {
+  #sedans {
+    margin-left: 25px;
+    margin-top: 50px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+
+  #luxury {
+    margin-right: 0px;
+    margin-bottom: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+
+  .card {
+    float: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 280px;
+  }
+
+  .learnmore {
+    margin-top: 20px;
+  }
+}
