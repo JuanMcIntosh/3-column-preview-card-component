@@ -24,6 +24,24 @@ body {
   background-color: var(--very_light_gray);
 }
 
+.learnmore:hover {
+  background-color: transparent;
+  border: 1px solid var(--transparent_white);
+  cursor: pointer;
+}
+
+.learnmore:hover #sedanslearnmore {
+  color: var(--transparent_white);
+}
+
+.learnmore:hover #suvslearnmore {
+  color: var(--transparent_white);
+}
+
+.learnmore:hover #luxurylearnmore {
+  color: var(--transparent_white);
+}
+
 @media all and (max-width: 1440px) {
   .card {
     margin-top: 150px;
@@ -67,6 +85,7 @@ body {
   }
 
   .learnmore {
+    border: none;
     margin-top: 85px;
     font-family: "Lexend Deca", sans-serif;
     background-color: var(--very_light_gray);
@@ -85,12 +104,6 @@ body {
 
   #luxurylearnmore {
     color: var(--very_dark_cyan);
-  }
-
-  .buttontext {
-    color: rgba(255, 255, 255, 0);
-    text-align: center;
-    padding-top: 8px;
   }
 
   .clear {
