@@ -25,5 +25,6 @@ Project aim: Create the webpage using HTML and CSS and the free resources provid
 > * Text size, positioning and flow in different screen size. 
 
 ## Author
-Website- @juanmcintosh.com
-Twitter- @thejuanmcintosh
+
+- Website - [Juan McIntosh](https://www.juanmcintosh.com)
+- Twitter - [@thejuanmcintosh](https://www.twitter.com/thejuanmcintosh)
