@@ -23,3 +23,7 @@ Project aim: Create the webpage using HTML and CSS and the free resources provid
 
 > * Making my design more responsive.
 > * Text size, positioning and flow in different screen size. 
+
+## Author
+Website- @juanmcintosh.com
+Twitter- @thejuanmcintosh
