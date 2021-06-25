@@ -26,5 +26,4 @@ Project aim: Create the webpage using HTML and CSS and the free resources provid
 
 ## Author
 
-- Website - [Juan McIntosh](juanmcintosh.com)
 - Twitter - [@thejuanmcintosh](https://www.twitter.com/thejuanmcintosh)
